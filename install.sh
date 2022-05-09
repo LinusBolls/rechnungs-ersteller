@@ -6,7 +6,7 @@ unzip ~/temp.zip -d ~/Library/Application\ Support/RechnungsErsteller
 rm ~/temp.zip
 
 # install dependencies from requirements.txt
-pip3 install -r ~/Library/Application\ Support/RechnungsErsteller/rechnungs-ersteller-master/requirements.txt
+/usr/bin/pip3 install -r ~/Library/Application\ Support/RechnungsErsteller/rechnungs-ersteller-master/requirements.txt
 
 # move startup script into home directory to make it more accessible via spotlight
 mv ~/Library/Application\ Support/RechnungsErsteller/rechnungs-ersteller-master/launch.sh ~/Der\ Schuldner
